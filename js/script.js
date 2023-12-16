@@ -1,9 +1,9 @@
 const data = [
   { name: 'john', age: 15, profession: 'developer' },
   { name: 'jane', age: 17, profession: 'admin' },
-  { name: 'Arka', age: 24, profession: 'developer' },
-  { name: 'Putla', age: 20, profession: 'developer' },
-  { name: 'Abir', age: 14, profession: 'developer' },
+  { name: 'Sam', age: 24, profession: 'developer' },
+  { name: 'Bam', age: 20, profession: 'developer' },
+  { name: 'Pam', age: 14, profession: 'developer' },
 ];
 
 // 1. Print Developers
@@ -38,9 +38,9 @@ function concatenateArray() {
   const data2 = [
     { name: 'johny', age: 24, profession: 'designer' },
     { name: 'janen', age: 27, profession: 'admin' },
-    { name: 'Arkadeep', age: 24, profession: 'designer' },
-    { name: 'Putlacoil', age: 20, profession: 'admin' },
-    { name: 'Abiram', age: 34, profession: 'designer' },
+    { name: 'sammy', age: 24, profession: 'designer' },
+    { name: 'bammy', age: 20, profession: 'admin' },
+    { name: 'pammy', age: 34, profession: 'designer' },
   ];
   let newArray = data.concat(data2);
   console.log(newArray);
@@ -106,13 +106,4 @@ function getTotalProfessions() {
   console.log(`We have ${count} developers in our system`);
 }
 
-/**
- 1. arr.forEach() --> we use to extract the objects from Array
- 2. arr.push() --> it adds element to an array and if we put in {} then it will be added as object
- 3. arr.filter() --> gives us an array with filtered values. 
- 4. if there is only one parameter is function then we can remove the parenthesis,
-    if there is only on return statement then we can remove the return statement,
-    if there is only one condition then no need "if-else" statement 
- 5. arr.includes(parameter) --> checks whether the parameter exist or not, give boolean value  
- 6, arr.sort(a,b)-->  if we return (a-b) then ascending order , if we return (b-a) then descending order
- */
+
